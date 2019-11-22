@@ -1,4 +1,4 @@
-# BeagleBoneBackupCam
+# BeagleBoneBackupCam V1.0
 
 Supporting files for my element14 Project 14 BeagleBone AI Seeing/Talking Backup Camera:
 
