@@ -81,7 +81,8 @@ float readDistance() {
 	}
 	
 	float the_return = distance / (12 * 2.54); //convert to feet.
-
+	if ((the_return)<.5) the_return=0;
+	if ((the_return)>14) the_return=14;
 	return the_return;
 }
 void recordDistance(float the_distance){
