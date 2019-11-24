@@ -22,6 +22,7 @@ Copy classification.tidl.cpp over the existing Cloud9 example:
     sudo nano /etc/fstab
 
 Paste this at the bottom and save with CTRL X:
+
   myramdisk  /home/debian/ramdisk  tmpfs  defaults,size=64k,x-gvfs-show  0  0
 
   If you change code, you'll need to recompile.  type:
