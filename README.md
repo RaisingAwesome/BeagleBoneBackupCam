@@ -4,7 +4,7 @@
 
   https://www.element14.com/community/community/project14/visionthing/blog/2019/10/20/seeing-around-corners-beagle-bone-back-up-car-camera-part-1-introduction
 
-Installation:
+**Installation:**
 
 In the terminal, at a directory of choice, type the following:
 
@@ -26,7 +26,7 @@ Paste this at the bottom and save with CTRL x:
     myramdisk  /home/debian/ramdisk  tmpfs  defaults,size=64k,x-gvfs-show  0  0
 
 
-Compiling:
+**Compiling:**
 
 You'll only need to do this if you modify the code for the serfo, tfmini, or forecast:
 
@@ -34,6 +34,6 @@ You'll only need to do this if you modify the code for the serfo, tfmini, or for
     gcc tfmini.c -o t  #to recompile tfmini.c
     ./mymake #to recompile wally.cpp  
 
-Execution:
+**Execution:**
 
 Use the Cloud9 IDE to Run classification.tidl.cpp.  Set your runner to "BeagleBone C or C++"
