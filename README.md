@@ -21,12 +21,13 @@ Copy classification.tidl.cpp over the existing Cloud9 example:
     mkdir ~/ramdisk
     sudo nano /etc/fstab
 
-Paste this at the bottom and save with CTRL X:
+Paste this at the bottom and save with CTRL x:
 
-  myramdisk  /home/debian/ramdisk  tmpfs  defaults,size=64k,x-gvfs-show  0  0
+    myramdisk  /home/debian/ramdisk  tmpfs  defaults,size=64k,x-gvfs-show  0  0
 
-  If you change code, you'll need to recompile.  type:
 
+Compiling:
+You'll only need to do this if you modify the code for the serfo, tfmini, or forecast:
     gcc servoPot.c -o s #to recompile servoPot.c
     gcc tfmini.c -o t  #to recompile tfmini.c
     ./mymake #to recompile wally.cpp  
