@@ -27,9 +27,13 @@ Paste this at the bottom and save with CTRL x:
 
 
 Compiling:
+
 You'll only need to do this if you modify the code for the serfo, tfmini, or forecast:
+
     gcc servoPot.c -o s #to recompile servoPot.c
     gcc tfmini.c -o t  #to recompile tfmini.c
     ./mymake #to recompile wally.cpp  
 
-  Use the Cloud9 IDE to Run classification.tidl.cpp.  Set your runner to "BeagleBone C or C++"
+Execution:
+
+Use the Cloud9 IDE to Run classification.tidl.cpp.  Set your runner to "BeagleBone C or C++"
