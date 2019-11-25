@@ -36,8 +36,8 @@ using namespace rapidjson;
 //key definitions that must be changed for one's personal use of this code
 
 #define MONITORING_PORT "5000"
-#define WEATHER_KEY "4ba6263cd7a889f74f11d981612dcb22"
-#define LOCATION_COORDINATES "38.7732886,-89.9786466"
+#define WEATHER_KEY "YOURKEY" //PUT YOUR OWN DARKSKY CREDENTIALS
+#define LOCATION_COORDINATES "X,Y" //PUT YOUR OWN LOCATION COORDINATES
 //end of key definitions
 
 //Function Protocols
